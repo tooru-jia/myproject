@@ -1,0 +1,52 @@
+.container{
+  margin:150px auto;
+  display:grid;
+  width:300px;
+  height:300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+body{
+  text-align: center;
+}
+
+@for $i from 0 through 8{
+  
+  .box:nth-child(#{$i + 1}){
+    background-color: hsl($i  * 40%, 100%, 70%);
+  }
+}
+
+
+.container:has(.box:nth-child(1):hover){
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  
+}
+// .container:has(.box:nth-child(2):hover){
+//   grid-template-columns: 1fr 2fr 1fr;
+//   grid-template-rows: 2fr 1fr 1fr;
+  
+// }
+
+@for $i from 0 to 9 {
+  .container:has(.box:nth-child(#{$i + 1}):hover){
+
+    $arr: 1fr 1fr 1fr; //这里不要有逗号，有了逗号就是数组
+    $r: $i / 3 + 1;
+    $c: floor($i % 3) + 1;
+    $cols: set-nth($arr,$c, 2fr);
+    $rows: set-nth($arr,$r, 2fr);
+    
+    grid-template-columns: $cols;
+    grid-template-rows: $rows;
+
+    // .box:nth-child(#{$i+1}){
+    //   background-color: black;
+    // }
+  }
+
+}
+
+
