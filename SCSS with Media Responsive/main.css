@@ -1,0 +1,265 @@
+@media screen and (max-width: 1920px) {
+  body {
+    background-color: #ff9c7a;
+  }
+  body::after {
+    content: "1";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1870px) {
+  body {
+    background-color: #ff9e7a;
+  }
+  body::after {
+    content: "2";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1820px) {
+  body {
+    background-color: lightsalmon;
+  }
+  body::after {
+    content: "3";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1770px) {
+  body {
+    background-color: #ffa27a;
+  }
+  body::after {
+    content: "4";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1720px) {
+  body {
+    background-color: #ffa47a;
+  }
+  body::after {
+    content: "5";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1670px) {
+  body {
+    background-color: #ffa77a;
+  }
+  body::after {
+    content: "6";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  body {
+    background-color: #ffa97a;
+  }
+  body::after {
+    content: "7";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1570px) {
+  body {
+    background-color: #ffab7a;
+  }
+  body::after {
+    content: "8";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  body {
+    background-color: #ffad7a;
+  }
+  body::after {
+    content: "9";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1470px) {
+  body {
+    background-color: #ffaf7a;
+  }
+  body::after {
+    content: "10";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  body {
+    background-color: #ffb27a;
+  }
+  body::after {
+    content: "11";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  body {
+    background-color: #ffb47a;
+  }
+  body::after {
+    content: "12";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  body {
+    background-color: #ffb67a;
+  }
+  body::after {
+    content: "13";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  body {
+    background-color: #ffb87a;
+  }
+  body::after {
+    content: "14";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  body {
+    background-color: #ffba7a;
+  }
+  body::after {
+    content: "15";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  body {
+    background-color: #ffbd7a;
+  }
+  body::after {
+    content: "16";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  body {
+    background-color: #ffbf7a;
+  }
+  body::after {
+    content: "17";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  body {
+    background-color: #ffc17a;
+  }
+  body::after {
+    content: "18";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  body {
+    background-color: #ffc37a;
+  }
+  body::after {
+    content: "19";
+    line-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+  }
+}
